@@ -32,7 +32,7 @@ a {
 #bot {
 	width: 100px;
 	height: 100px;
-	margin: 30px auto;
+	margin: 50px auto;
 	color: black;
 	font-size: 60px;
 	display: flex;
@@ -48,7 +48,7 @@ a {
 #you {
 	height: 150px;
 	background-color: rgba(14, 136, 235, 0.6);
-	margin: 0 auto;
+	margin: 50px auto;
 }
 .you-in {
 	display: flex;
@@ -73,7 +73,8 @@ a {
 }
 .active {
 	filter: brightness(1.1);
-	transform: scale(1.05);
+	transform: scale(1.07);
+	box-shadow: 2px 2px 5px darkgray, -2px -2px 5px darkgray;
 }
 .hide {
 	background-color: transparent;
