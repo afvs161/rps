@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: sans-serif;
+	color: white;
+	text-transform: capitalize;
+}
+a {
+	color: black;
+	font-size: 48px;
+	font-weight: 600;
+	background-color: lightgray;
+	padding: 5px 15px;
+	border-radius: 10px;
+	box-shadow: 1px 1px 2px #000, -1px -1px 2px #000;
+}
+.con {
+	width: 100vw;
+	height: 100vh;
+	background-color: #eee;
+	text-align: center;
+}
+.msg {
+	background: rgba(14, 136, 235, 0.6);
+	padding: 10px 5px;
+}
+.fp {
+	text-align: right;
+}
+#bot {
+	width: 100px;
+	height: 100px;
+	margin: 30px auto;
+	color: black;
+	font-size: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #000, -2px -2px 5px #000;
+	overflow: hidden;
+	/* background-image: url('./images/scissors.png'); */
+	background-size: cover;
+	background-color: #eee;
+}
+#you {
+	height: 150px;
+	background-color: rgba(14, 136, 235, 0.6);
+	margin: 0 auto;
+}
+.you-in {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 400px;
+	height: 100%;
+	margin: 30px auto;
+}
+.nc {
+	width: 100px;
+	height: 100px;
+	border-radius: 15px;
+	box-shadow: 2px 2px 5px #000, -2px -2px 5px #000;
+	overflow: hidden;
+	/* background-image: url('./images/scissors.png'); */
+	background-size: cover;
+	margin: 50px auto;
+	background-color: #eee;
+	cursor: pointer;
+	transition: all 0.1s;
+}
+.active {
+	filter: brightness(1.1);
+	transform: scale(1.05);
+}
+.hide {
+	background-color: transparent;
+	box-shadow: none;
+	cursor: auto;
+}
