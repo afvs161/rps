@@ -26,7 +26,7 @@ start.addEventListener('click', e => {
 
 	// count
 	let i = 3
-	const startTime = setInterval(counting, 500)
+	const startTime = setInterval(counting, 1000)
 
 	function counting() {
 		if (i == 0) {
